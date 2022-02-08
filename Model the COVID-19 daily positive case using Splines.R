@@ -1,7 +1,7 @@
 #---------------
 # loading data
 #----------------
-florida_covid19 <- read.csv(url("https://ajmolstad.github.io/docs/florida_covid.csv")) 
+florida_covid19 <- read.csv(url("https://xxxxx.github.io/docs/florida_covid.csv")) 
 covid19 <- florida_covid19[order(as.Date(florida_covid19$date, format="%m/%d/%Y")),] 
 covid19$x <- 1:length(covid19$date)
 
